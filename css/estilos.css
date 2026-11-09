@@ -874,3 +874,10 @@ main { overflow-x: clip; }
 #alojamiento .bloque-carrusel { margin-top: clamp(1.8rem, 4vw, 2.8rem); }
 .hotel { padding: 1rem 1.1rem 1.2rem; gap: .4rem; }
 .hotel-ilu { aspect-ratio: 16 / 9; }
+
+/* Iconos del timeline: dibujos de línea fina (img/icono-*.png) */
+img.linea-icono { width: 82px; height: 74px; object-fit: contain; object-position: center bottom; stroke: none; }
+@media (max-width: 900px) {
+  img.linea-icono { width: 56px; height: 52px; padding: 0; background: none; object-position: center; }
+}
+.cab-ilu { width: min(260px, 64%); aspect-ratio: 546 / 258; } .cab-ilu img { mix-blend-mode: normal; }
