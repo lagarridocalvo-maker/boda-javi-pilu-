@@ -881,3 +881,8 @@ img.linea-icono { width: 82px; height: 74px; object-fit: contain; object-positio
   img.linea-icono { width: 56px; height: 52px; padding: 0; background: none; object-position: center; }
 }
 .cab-ilu { width: min(260px, 64%); aspect-ratio: 546 / 258; } .cab-ilu img { mix-blend-mode: normal; }
+
+/* Iconos del menú del hero: dibujos de línea de Pilar (img/menu-*.png) */
+.acceso-icono img { display: block; width: 46px; height: 44px; object-fit: contain; opacity: .9; transition: opacity .3s; }
+.accesos a:hover .acceso-icono img { opacity: 1; }
+@media (max-width: 760px) { .acceso-icono img { width: 38px; height: 36px; } }
