@@ -9,7 +9,7 @@ window.BODA_DATOS = {
   hoteles: [
     // ---- Con tarifa especial (en el orden del carrusel) ----
     { nombre: "Hotel Oriente", mapa: 4, min: 7, estrellas: 3, descuento: "15%", especial: true,
-      codigo: "BODA2027", url: "https://hotel-oriente.com/", imagen: "hotel-oriente.png" },
+      codigo: "BODA2027", url: "https://hotel-oriente.com/", imagen: "hotel-oriente.webp" },
     { nombre: "Hotel Alfonso", mapa: 5, min: 7, estrellas: 4, descuento: "10%", especial: true,
       codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-alfonso.png" },
     { nombre: "Hotel Goya", mapa: 7, min: 11, estrellas: 4, descuento: "10%", especial: true,
