@@ -886,3 +886,7 @@ img.linea-icono { width: 82px; height: 74px; object-fit: contain; object-positio
 .acceso-icono img { display: block; width: 46px; height: 44px; object-fit: contain; opacity: .9; transition: opacity .3s; }
 .accesos a:hover .acceso-icono img { opacity: 1; }
 @media (max-width: 760px) { .acceso-icono img { width: 38px; height: 36px; } }
+
+/* Ramo que cruza el borde entre dos secciones (sin bordes cortados) para dar continuidad */
+.deco-bl.deco-puente { bottom: calc(var(--w) * -.55); left: -1.5%; }
+@media (max-width: 760px) { .deco-bl.deco-puente { bottom: calc(var(--wm) * -.45); } }
