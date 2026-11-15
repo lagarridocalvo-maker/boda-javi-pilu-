@@ -890,3 +890,19 @@ img.linea-icono { width: 82px; height: 74px; object-fit: contain; object-positio
 /* Ramo que cruza el borde entre dos secciones (sin bordes cortados) para dar continuidad */
 .deco-bl.deco-puente { bottom: calc(var(--w) * -.55); left: -1.5%; }
 @media (max-width: 760px) { .deco-bl.deco-puente { bottom: calc(var(--wm) * -.45); } }
+
+/* ===== Foto de la pareja en el hero (como el boceto de Pilar) =====
+   La pareja ocupa el centro de la columna, el fotomatón queda a su derecha sin taparles
+   y la foto se mete por debajo del papel rasgado. */
+.hero-fotos { justify-content: flex-start; align-items: flex-end; }
+.hueco-pareja { width: calc(100% - var(--fw) * .7); max-width: 480px; aspect-ratio: 704 / 910; margin-left: -3%; margin-bottom: -3.4rem; }
+.hueco-pareja img { object-position: left bottom; filter: drop-shadow(0 6px 14px rgba(24, 61, 94, .12)); }
+@media (max-width: 900px) {
+  .hero-fotos { justify-content: center; }
+  .hueco-pareja { width: min(74%, 360px); margin-left: 0; margin-right: calc(var(--fw) * .55); }
+}
+@media (max-width: 760px) {
+  .hero-fotos { --fw: 74px; }
+  .fotomaton-grupo { right: -3%; top: 8%; }
+  .hueco-pareja { width: 70%; margin-right: 16%; margin-bottom: -2.6rem; }
+}
