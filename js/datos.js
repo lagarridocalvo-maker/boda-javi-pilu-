@@ -48,9 +48,9 @@ window.BODA_DATOS = {
   // "favorito: true" muestra el corazón dorado con «Nuestro favorito».
   turismo: [
     { titulo: "Qué visitar", icono: "i-monumento", intro: "Algunos de los lugares más emblemáticos de Zaragoza", lugares: [
-      { nombre: "Plaza del Pilar & Basílica del Pilar", texto: "El corazón de Zaragoza y uno de sus monumentos más emblemáticos", favorito: true, imagen: "turismo-pilar.png" },
-      { nombre: "Catedral de La Seo", texto: "Declarada Patrimonio Mundial por la UNESCO", favorito: true, imagen: "turismo-la-seo.png" },
-      { nombre: "Palacio de la Aljafería", texto: "Uno de los grandes ejemplos de arquitectura islámica en España", favorito: false, imagen: "turismo-aljaferia.png" }
+      { nombre: "Plaza del Pilar & Basílica del Pilar", texto: "El corazón de Zaragoza y uno de sus monumentos más emblemáticos", favorito: true, imagen: "turismo-pilar.webp" },
+      { nombre: "Catedral de La Seo", texto: "Declarada Patrimonio Mundial por la UNESCO", favorito: true, imagen: "turismo-la-seo.webp" },
+      { nombre: "Palacio de la Aljafería", texto: "Uno de los grandes ejemplos de arquitectura islámica en España", favorito: false, imagen: "turismo-aljaferia.webp" }
     ]},
     { titulo: "Dónde comer", icono: "i-cubiertos", intro: "Tapas, gastronomía y restaurantes que no os podéis perder", lugares: [
       { nombre: "El Tubo", texto: "Ambiente tradicional y tapas para todos los gustos", favorito: true, imagen: "turismo-el-tubo.png" },
