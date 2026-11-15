@@ -15,27 +15,27 @@ window.BODA_DATOS = {
     { nombre: "Hotel Goya", mapa: 7, min: 11, estrellas: 4, descuento: "10%", especial: true,
       codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-goya.webp" },
     { nombre: "Hotel Palafox", mapa: null, min: 14, estrellas: 5, descuento: "10%", especial: true,
-      codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-palafox.png" },
+      codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-palafox.webp" },
     { nombre: "Hotel Reina Petronila", enTabla: false, mapa: null, min: 51, estrellas: 5, descuento: "Tarifa especial", especial: true,
-      codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-reina-petronila.png" },
+      codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-reina-petronila.webp" },
     { nombre: "Hotel Hiberus", enTabla: false, mapa: null, min: 46, estrellas: 4, descuento: "Tarifa especial", especial: true,
-      codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-hiberus.png" },
+      codigo: "WEDD2027", url: "https://www.palafoxhoteles.com/es", imagen: "hotel-hiberus.webp" },
     { nombre: "Hotel Catalonia El Pilar", mapa: 2, min: 4, estrellas: 4, descuento: "Tarifas fijas", especial: true,
-      codigo: "BODA JAVIER Y PILAR", url: "https://www.cataloniahotels.com/es/hotel/catalonia-el-pilar", imagen: "hotel-catalonia.png" },
+      codigo: "BODA JAVIER Y PILAR", url: "https://www.cataloniahotels.com/es/hotel/catalonia-el-pilar", imagen: "hotel-catalonia.webp" },
     { nombre: "B&B Hotel Zaragoza Centro", mapa: 10, min: 8, estrellas: 2, descuento: "10%", especial: true,
-      codigo: "BODA JAVIER 27 JULIO", url: "https://www.hotel-bb.com/es/hotel/zaragoza-centro", imagen: "hotel-bb.png" },
+      codigo: "BODA JAVIER 27 JULIO", url: "https://www.hotel-bb.com/es/hotel/zaragoza-centro", imagen: "hotel-bb.webp" },
 
     // ---- Otras recomendaciones ----
     { nombre: "Hotel NH Ciudad de Zaragoza", mapa: 1, min: 5, estrellas: 4, descuento: null, especial: false,
-      url: "https://www.nh-hotels.com/es/hotel/nh-ciudad-de-zaragoza", imagen: "hotel-nh-ciudad.png" },
+      url: "https://www.nh-hotels.com/es/hotel/nh-ciudad-de-zaragoza", imagen: "hotel-nh-ciudad.webp" },
     { nombre: "NH Collection Gran Hotel de Zaragoza", mapa: 9, min: 15, estrellas: 4, descuento: null, especial: false,
-      url: "https://www.nh-hotels.com/es/hotel/nh-collection-gran-hotel-de-zaragoza", imagen: "hotel-nh-gran-hotel.png" },
+      url: "https://www.nh-hotels.com/es/hotel/nh-collection-gran-hotel-de-zaragoza", imagen: "hotel-nh-gran-hotel.webp" },
     { nombre: "Hotel Avenida", mapa: 3, min: 9, estrellas: 3, descuento: null, especial: false,
-      url: "https://www.hotelavenida-zaragoza.com/", imagen: "hotel-avenida.png" },
+      url: "https://www.hotelavenida-zaragoza.com/", imagen: "hotel-avenida.webp" },
     { nombre: "Hotel Ibis Styles Zaragoza Centro", mapa: 8, min: 12, estrellas: 3, descuento: null, especial: false,
-      url: "https://all.accor.com/hotel/8521/index.es.shtml", imagen: "hotel-ibis.png" },
+      url: "https://all.accor.com/hotel/8521/index.es.shtml", imagen: "hotel-ibis.webp" },
     { nombre: "Hotel Hesperia Zaragoza Centro", mapa: null, min: 15, estrellas: 3, descuento: null, especial: false,
-      url: "https://www.hesperia.com/hotel-hesperia-zaragoza-centro/", imagen: "hotel-hesperia.png" }
+      url: "https://www.hesperia.com/hotel-hesperia-zaragoza-centro/", imagen: "hotel-hesperia.webp" }
   ],
 
   parkings: [
