@@ -8,8 +8,6 @@ window.BODA_DATOS = {
 
   hoteles: [
     // ---- Con tarifa especial (en el orden del carrusel) ----
-    { nombre: "Hotel Innside by Meliá", mapa: 6, min: 13, estrellas: 4, descuento: "20% – 10%", especial: true,
-      codigo: null, textoReserva: "Reserva a través del enlace", url: "CONFIG:enlaceInnside", imagen: "hotel-innside.png" },
     { nombre: "Hotel Oriente", mapa: 4, min: 7, estrellas: 3, descuento: "15%", especial: true,
       codigo: "BODA2027", url: "https://hotel-oriente.com/", imagen: "hotel-oriente.png" },
     { nombre: "Hotel Alfonso", mapa: 5, min: 7, estrellas: 4, descuento: "10%", especial: true,

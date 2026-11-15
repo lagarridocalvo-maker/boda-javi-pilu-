@@ -18,8 +18,5 @@ window.BODA_CONFIG = {
 
   // Cuenta bancaria. Mientras esté vacío, se muestra «La compartiremos muy pronto».
   iban: "",
-  titulares: "Javier Gil y Pilar López",
-
-  // Enlace de reserva con tarifa especial del Innside by Meliá (pendiente del hotel).
-  enlaceInnside: ""
+  titulares: "Javier Gil y Pilar López"
 };

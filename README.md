@@ -7,7 +7,7 @@ Web estática (HTML + CSS + JS, sin dependencias ni compilación). Se publica ta
 ```
 index.html          Todas las secciones y textos
 css/estilos.css     Diseño (paleta y tipografías arriba del todo, en :root)
-js/config.js        ⚠️ DATOS PENDIENTES: formulario, IBAN, enlace Innside, modo huecos
+js/config.js        ⚠️ DATOS PENDIENTES: formulario, IBAN, modo huecos
 js/datos.js         Hoteles, aparcamientos y turismo (para añadir/quitar tarjetas)
 js/main.js          Funcionamiento (sobre, menú, cuenta atrás, carruseles…)
 img/                Imágenes
@@ -62,7 +62,7 @@ Consejo: exporta en WebP o PNG comprimido (TinyPNG / Squoosh). Ideal < 300 KB po
 |---|---|
 | ilustracion-alojamiento.png | 600×300 (cabecera Alojamiento) |
 | rsvp.png | 900×1000 (sobre RSVP con flores, lazo, pluma y sellos Madrid/Zaragoza) |
-| hotel-innside.png, hotel-oriente.png, hotel-alfonso.png, hotel-goya.png, hotel-palafox.png, hotel-reina-petronila.png, hotel-hiberus.png, hotel-catalonia.png, hotel-bb.png | 600×420 |
+| hotel-oriente.png, hotel-alfonso.png, hotel-goya.png, hotel-palafox.png, hotel-reina-petronila.png, hotel-hiberus.png, hotel-catalonia.png, hotel-bb.png | 600×420 |
 | hotel-nh-ciudad.png, hotel-nh-gran-hotel.png, hotel-avenida.png, hotel-ibis.png, hotel-hesperia.png | 600×420 |
 | turismo-pilar.png, turismo-la-seo.png, turismo-aljaferia.png | 600×450 |
 | turismo-el-tubo.png, turismo-puerta-cinegia.png, turismo-calamar-bravo.png, turismo-bula.png, turismo-parthenope.png, turismo-gambrinus.png | 600×450 |
@@ -75,7 +75,6 @@ Si alguna tarjeta de turismo se queda sin ilustración, también puedes usar una
 ## Pendiente de confirmar con Pilar
 - [ ] Enlace al formulario de confirmación → `js/config.js` (formularioURL). Debe preguntar por el autobús.
 - [ ] IBAN → `js/config.js`.
-- [ ] Enlace de reserva Innside by Meliá → `js/config.js`.
 - [ ] Código del B&B: pone «BODA JAVIER 27 JULIO» pero la boda es el 24. ¿Es el código real del hotel?
 - [ ] Reina Petronila (51 min) e Hiberus (46 min): ¿minutos andando? ¿% de descuento? No estaban en la tabla original; se han añadido.
 - [ ] Palafox, Hesperia, Reina Petronila e Hiberus no aparecen en el mapa ilustrado (salen sin número en la tabla).
