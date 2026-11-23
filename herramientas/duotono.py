@@ -28,5 +28,7 @@ d = ((np.abs((xx - w / 2) / (w * .5)) ** 5) + (np.abs((yy - h / 2) / (h * .5)) *
 n = sum(gaussian_filter(rng.normal(0, 1, (h, w)), s) * k for s, k in [(40, 9), (14, 4), (5, 1.5)])
 n = n / np.abs(n).max()
 m = gaussian_filter(np.clip((.98 - d + n * .07) / .3, 0, 1) ** 1.3, 2.5)
+fundido = np.clip(gaussian_filter(m, 22) / .85, 0, 1)[..., None] ** .9   # aclarado amplio y suave hacia el borde (evita halos en fotos oscuras)
+rgb = rgb * fundido + claro * (1 - fundido)
 Image.fromarray(np.dstack([np.clip(rgb, 0, 255), m * 255]).astype('uint8'), 'RGBA').save(dst, 'WEBP', quality=86, method=6)
 print(dst, (w, h))

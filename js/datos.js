@@ -53,18 +53,18 @@ window.BODA_DATOS = {
       { nombre: "Palacio de la Aljafería", texto: "Uno de los grandes ejemplos de arquitectura islámica en España", favorito: false, imagen: "turismo-aljaferia.webp" }
     ]},
     { titulo: "Dónde comer", icono: "i-cubiertos", intro: "Tapas, gastronomía y restaurantes que no os podéis perder", lugares: [
-      { nombre: "El Tubo", texto: "Ambiente tradicional y tapas para todos los gustos", favorito: true, imagen: "turismo-el-tubo.png" },
-      { nombre: "Puerta Cinegia", texto: "Tapas creativas en un entorno con encanto", favorito: false, imagen: "turismo-puerta-cinegia.png" },
-      { nombre: "Calamar Bravo", texto: "Famosos bocadillos de calamares", favorito: true, imagen: "turismo-calamar-bravo.png" },
-      { nombre: "Bula Tapas", texto: "Cocina moderna en formato tapa", favorito: false, imagen: "turismo-bula.png" },
-      { nombre: "La Parthénope", texto: "Restaurante italiano con auténtico sabor napolitano", favorito: true, imagen: "turismo-parthenope.png" },
-      { nombre: "Cervecería Gambrinus", texto: "Comida casera y ambiente de toda la vida", favorito: false, imagen: "turismo-gambrinus.png" }
+      { nombre: "El Tubo", texto: "Ambiente tradicional y tapas para todos los gustos", favorito: true, imagen: "turismo-el-tubo.webp" },
+      { nombre: "Puerta Cinegia", texto: "Tapas creativas en un entorno con encanto", favorito: false, imagen: "turismo-puerta-cinegia.webp" },
+      { nombre: "Calamar Bravo", texto: "Famosos bocadillos de calamares", favorito: true, imagen: "turismo-calamar-bravo.webp" },
+      { nombre: "Bula Tapas", texto: "Cocina moderna en formato tapa", favorito: false, imagen: "turismo-bula.webp" },
+      { nombre: "La Parthénope", texto: "Restaurante italiano con auténtico sabor napolitano", favorito: true, imagen: "turismo-parthenope.webp" },
+      { nombre: "Cervecería Gambrinus", texto: "Comida casera y ambiente de toda la vida", favorito: false, imagen: "turismo-gambrinus.webp" }
     ]},
     { titulo: "Dónde tomar algo", icono: "i-coctel", intro: "Rincones únicos para disfrutar de un buen ambiente", lugares: [
-      { nombre: "Moonlight Experimental Bar", texto: "Cócteles de autor en un espacio diferente", favorito: true, imagen: "turismo-moonlight.png" },
-      { nombre: "Ginger Fizz Bar", texto: "Coctelería clásica con un toque contemporáneo", favorito: false, imagen: "turismo-ginger-fizz.png" },
-      { nombre: "Doña Hipólita Cafetería & Brunch", texto: "Ideal para desayuno y brunch con encanto", favorito: true, imagen: "turismo-dona-hipolita.png" },
-      { nombre: "Mi Habitación Favorita", texto: "Ideal para desayunar en un ambiente acogedor", favorito: false, imagen: "turismo-mi-habitacion.png" }
+      { nombre: "Moonlight Experimental Bar", texto: "Cócteles de autor en un espacio diferente", favorito: true, imagen: "turismo-moonlight.webp" },
+      { nombre: "Ginger Fizz Bar", texto: "Coctelería clásica con un toque contemporáneo", favorito: false, imagen: "turismo-ginger-fizz.webp" },
+      { nombre: "Doña Hipólita Cafetería & Brunch", texto: "Ideal para desayuno y brunch con encanto", favorito: true, imagen: "turismo-dona-hipolita.webp" },
+      { nombre: "Mi Habitación Favorita", texto: "Ideal para desayunar en un ambiente acogedor", favorito: false, imagen: "turismo-mi-habitacion.webp" }
     ]},
     { titulo: "Dónde pasear", icono: "i-arbol", intro: "Lugares perfectos para disfrutar de Zaragoza con tranquilidad", lugares: [
       { nombre: "Puente de Piedra", texto: "Vistas increíbles del río y del skyline de la ciudad", favorito: true, imagen: "turismo-puente-piedra.webp" },
