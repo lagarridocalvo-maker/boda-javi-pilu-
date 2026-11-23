@@ -906,3 +906,6 @@ img.linea-icono { width: 82px; height: 74px; object-fit: contain; object-positio
   .fotomaton-grupo { right: -3%; top: 8%; }
   .hueco-pareja { width: 70%; margin-right: 16%; margin-bottom: -2.6rem; }
 }
+
+/* Ilustración RSVP (img/rsvp.webp, 2:3) */
+.rsvp-ilu { aspect-ratio: 2 / 3; max-width: 440px; justify-self: center; }
