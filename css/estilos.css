@@ -909,3 +909,7 @@ img.linea-icono { width: 82px; height: 74px; object-fit: contain; object-positio
 
 /* Ilustración RSVP (img/rsvp.webp, 2:3) */
 .rsvp-ilu { aspect-ratio: 2 / 3; max-width: 440px; justify-self: center; }
+
+/* Nuestro futuro: retrato acuarela frente al Pilar (img/foto-futuro.webp), sin máscara ni recorte */
+.futuro-foto { aspect-ratio: 900 / 951; max-width: 520px; overflow: visible; border-radius: 0; -webkit-mask-image: none; mask-image: none; }
+.futuro-foto img { object-fit: contain; }
