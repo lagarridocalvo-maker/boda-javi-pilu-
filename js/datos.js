@@ -67,9 +67,9 @@ window.BODA_DATOS = {
       { nombre: "Mi Habitación Favorita", texto: "Ideal para desayunar en un ambiente acogedor", favorito: false, imagen: "turismo-mi-habitacion.png" }
     ]},
     { titulo: "Dónde pasear", icono: "i-arbol", intro: "Lugares perfectos para disfrutar de Zaragoza con tranquilidad", lugares: [
-      { nombre: "Puente de Piedra", texto: "Vistas increíbles del río y del skyline de la ciudad", favorito: true, imagen: "turismo-puente-piedra.png" },
-      { nombre: "Ribera del Ebro", texto: "Un paseo perfecto al atardecer junto al río", favorito: true, imagen: "turismo-ribera.png" },
-      { nombre: "Parque Grande", texto: "Naturaleza y tranquilidad en el corazón de la ciudad", favorito: false, imagen: "turismo-parque-grande.png" }
+      { nombre: "Puente de Piedra", texto: "Vistas increíbles del río y del skyline de la ciudad", favorito: true, imagen: "turismo-puente-piedra.webp" },
+      { nombre: "Ribera del Ebro", texto: "Un paseo perfecto al atardecer junto al río", favorito: true, imagen: "turismo-ribera.webp" },
+      { nombre: "Parque Grande", texto: "Naturaleza y tranquilidad en el corazón de la ciudad", favorito: false, imagen: "turismo-parque-grande.webp" }
     ]}
   ]
 };
